@@ -67,7 +67,7 @@ Splash Screen
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(6, 12, 34, 0.98);
+    background-color: #1d1d1d;
     transition: 1s;
   }
   
@@ -609,7 +609,7 @@ Splash Screen
 }
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(40,40,40,0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -642,7 +642,7 @@ Splash Screen
   text-transform: uppercase;
 }
 #hero h1 span {
-  color: #f82249;
+  color: rgb(124,184,0);
 }
 @media (max-width: 991px) {
   #hero h1 {
@@ -816,8 +816,18 @@ Splash Screen
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
-  padding: 60px 0 30px 0;
+  /* background: url("../img/Pattern1.jpeg"); Commented for future---background for div same as about.
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+  color: #fff; */
+  padding: 60px 0 40px 0;
 }
+/* @media (min-width: 1024px) {
+  #speakers {
+    background-attachment: fixed;
+  }
+} */
 #speakers .speaker {
   position: relative;
   overflow: hidden;
